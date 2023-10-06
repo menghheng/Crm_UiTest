@@ -14,7 +14,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class BaiduPage extends BasePage {
     private RemoteWebDriver driver;
     //搜索输入框
-    private By searchInputBy=By.id("kw");
+    private By searchInputBy=By.id("kw"); // 搜索输入框
     //百度一下按钮
     private By searchSubmitBy=By.id("su");
     //新闻链接
